@@ -30,7 +30,7 @@ casos criticos de prueba:
 - como a las frases que podrian ser un palindromo no las reconoce, para entregar una respuesta valida validaremos que solo ingrese palabras.
 
 conclusion:
-el aplicattions run no me permite analizar los casos criticos ya que por default no deja ingresar casos vacios, y input solo reconocer la primera palabra al agragr una fresa.
+el aplicattions run no me permite analizar los casos criticos ya que por default no deja ingresar casos vacios, y el input solo reconoce la primera palabra al agregar una frase.
 con la ayuda de los test puedo probar estos casos criticos y tomar esos casos como un error controlado en la logica, 
 en el ultimo commit se  agrega para mejorar el codigo: 
 -un boolean para las repiticiones de ejecucion
