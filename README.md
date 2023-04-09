@@ -19,4 +19,22 @@ return cadena === resultado;
 }
 en este caso retorna true;
 
+que puede salir mal ? plan de pruebas, 5 casos de prueba, ¿Qué resultados arrojan sus Test con estas entradas: “aca”, “acas”, “h”?
+
+-la ejecucion solo se realiza una vez, asi que es tedocio tener que recargar el aplicativo para volver a consultar.
+-solo admite palabras, en caso de que ingresen una frase "Sometamos o matemos" no reconoce que puedan ser iguales
+casos criticos de prueba: 
+-"a" - "Sometamos o matemos" - "casa" - " " - "jasjndjnajads"
+“aca” resultado es pálindromo , “acas” no es palindromo , “h” resultado: si es palindromo
+- al ingresar " " como caso de prueba en los test se cae la aplicacion, agregare esa validacion para tal caso.
+- como a las frases que podrian ser un palindromo no las reconoce, para entregar una respuesta valida validaremos que solo ingrese palabras.
+
+conclusion:
+el aplicattions run no me permite analizar los casos criticos ya que por default no deja ingresar casos vacios, y input solo reconocer la primera palabra al agragr una fresa.
+con la ayuda de los test puedo probar estos casos criticos y tomar esos casos como un error controlado en la logica, 
+en el ultimo commit se  agrega para mejorar el codigo: 
+-un boolean para las repiticiones de ejecucion
+-validacion de que sea una palabra y nos frases
+-validacion de que el input no sea vacio
+
 
